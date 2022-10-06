@@ -1902,7 +1902,7 @@
   /* header */
   .header_container {
     position: relative;
-    width: 100%;
+    width: 320px;
     height: 50px;
     margin: 0 auto;
   }
@@ -2027,7 +2027,7 @@
     background-size: auto;
   }
   .header_img_background_container {
-    width: 100%;
+    width: 320px;
     margin: 0 auto;
     display: flex;
     flex-flow: column nowrap;
@@ -2073,7 +2073,7 @@
   }
   /* templatePages */
   .templatePages_container {
-    width: 100%;
+    width: 320px;
     margin: 0 auto;
     display: flex;
     flex-flow: column nowrap;
@@ -2105,7 +2105,7 @@
     display: flex;
     flex-flow: row wrap;
     margin-top: 60px;
-    margin-left: 96px;
+    margin-left: 15px;
     margin-bottom: 121px;
   }
   .templatePages_itemFlex .templatePages_item {
@@ -2115,7 +2115,7 @@
     align-items: center;
     margin-right: 20px;
     margin-bottom: 20px;
-    width: 387px;
+    width: 310px;
     height: 315px;
     border: 1px solid #4B4136;
     border-radius: 0;
@@ -2145,7 +2145,7 @@
   }
   /* ourService */
   .ourService_container {
-    width: 100%;
+    width: 320px;
     margin: 0 auto;
     display: flex;
     flex-flow: column nowrap;
@@ -2219,7 +2219,7 @@
     margin-bottom: 125px;
   }
   .followMe_container {
-    width: 100%;
+    width: 320px;
     margin: 0 auto;
   }
   .followMe_flex {
@@ -2266,7 +2266,7 @@
   }
   /* Subscribe */
   .subscribe_container {
-    width: 100%;
+    width: 320px;
     margin: 0 auto;
   }
   .subscribe_container .subscribe_flex {
@@ -2303,14 +2303,14 @@
   .subscribe_container .subscribe_flex form input[type=text] {
     box-sizing: border-box;
     background-color: #181511;
-    width: 420px;
+    width: 310px;
     height: 59px;
     border: 1px solid #4B4136;
     border-radius: 0;
     color: #FFFFFF;
   }
   .subscribe_container .subscribe_flex form input[type=submit] {
-    width: 420px;
+    width: 310px;
     height: 50px;
     margin-bottom: 52px;
     background: #FFAE2B;
@@ -2323,6 +2323,7 @@
     text-align: center;
     text-transform: uppercase;
     color: #181511;
+    border: 0;
   }
   .subscribe_container .subscribe_social {
     display: flex;
@@ -2354,7 +2355,7 @@
     border-top: 1px solid #4B4136;
   }
   footer .footer_container {
-    width: 100%;
+    width: 320px;
     margin: 0 auto;
   }
   footer .footer_flex {
