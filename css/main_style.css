@@ -385,6 +385,8 @@
   margin-bottom: 52px;
   background: #FFAE2B;
   border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
   font-family: "Old Standard TT", serif;
   font-style: normal;
   font-weight: 400;

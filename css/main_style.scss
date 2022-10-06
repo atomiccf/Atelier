@@ -492,6 +492,8 @@ h2{
       margin-bottom: 52px;
       background:$mySin;
       border-radius: 0;
+      -moz-border-radius: 0;
+      -webkit-border-radius: 0;
       font-family: $oldStandardTT;
       font-style: normal;
       font-weight: 400;
