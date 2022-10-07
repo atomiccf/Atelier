@@ -479,6 +479,9 @@
       }
 
       form{
+        input{
+          border-radius: 0;
+        }
         input[type="text"] {
           box-sizing: border-box;
           background-color:$zeus;
@@ -487,7 +490,7 @@
           border: 1px solid $taupe;
           border-radius: 0;
           -moz-border-radius: 0;
-          -webkit-border-radius: 0;
+          -webkit-appearance: none;
           color:$white;
 
 
@@ -1733,6 +1736,10 @@
       }
 
       form{
+        input{
+
+          border-radius: 0;
+        }
         input[type="text"] {
           box-sizing: border-box;
           background-color:$zeus;
@@ -1754,8 +1761,8 @@
           margin-bottom: 52px;
           background:$mySin;
           border-radius: 0;
-          -moz-border-radius: 0;
-          -webkit-border-radius: 0;
+
+          -webkit-appearance: none;
           font-family: $oldStandardTT;
           font-style: normal;
           font-weight: 400;
