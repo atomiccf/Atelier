@@ -2460,7 +2460,7 @@
           background:$mySin;
           border-radius: 0;
           -moz-border-radius: 0;
-          -webkit-border-radius: 0;
+          -webkit-appearance: none;
           font-family: $oldStandardTT;
           font-style: normal;
           font-weight: 400;
@@ -3160,7 +3160,7 @@
           background:$mySin;
           border-radius: 0;
           -moz-border-radius: 0;
-          -webkit-border-radius: 0;
+          -webkit-appearance: none;
           font-family: $oldStandardTT;
           font-style: normal;
           font-weight: 400;

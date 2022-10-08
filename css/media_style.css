@@ -1819,7 +1819,7 @@
     background: #FFAE2B;
     border-radius: 0;
     -moz-border-radius: 0;
-    -webkit-border-radius: 0;
+    -webkit-appearance: none;
     font-family: "Old Standard TT", serif;
     font-style: normal;
     font-weight: 400;
@@ -2339,7 +2339,7 @@
     background: #FFAE2B;
     border-radius: 0;
     -moz-border-radius: 0;
-    -webkit-border-radius: 0;
+    -webkit-appearance: none;
     font-family: "Old Standard TT", serif;
     font-style: normal;
     font-weight: 400;
