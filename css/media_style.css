@@ -358,9 +358,6 @@
   .subscribe_container .subscribe_flex p:nth-child(2) {
     margin-bottom: 82px;
   }
-  .subscribe_container .subscribe_flex form input {
-    border-radius: 0;
-  }
   .subscribe_container .subscribe_flex form input[type=text] {
     box-sizing: border-box;
     background-color: #181511;
@@ -369,7 +366,7 @@
     border: 1px solid #4B4136;
     border-radius: 0;
     -moz-border-radius: 0;
-    -webkit-appearance: none;
+    -webkit-border-radius: 0;
     color: #FFFFFF;
   }
   .subscribe_container .subscribe_flex form input[type=submit] {
@@ -379,7 +376,7 @@
     background: #FFAE2B;
     border-radius: 0;
     -moz-border-radius: 0;
-    -webkit-border-radius: 0;
+    -webkit-appearance: none;
     font-family: "Old Standard TT", serif;
     font-style: normal;
     font-weight: 400;
@@ -838,6 +835,7 @@
     border-radius: 0;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
+    -webkit-appearance: none;
     font-family: "Old Standard TT", serif;
     font-style: normal;
     font-weight: 400;
@@ -1281,9 +1279,6 @@
   .subscribe_container .subscribe_flex p:nth-child(2) {
     margin-bottom: 82px;
   }
-  .subscribe_container .subscribe_flex form input {
-    border-radius: 0;
-  }
   .subscribe_container .subscribe_flex form input[type=text] {
     box-sizing: border-box;
     background-color: #181511;
@@ -1301,6 +1296,8 @@
     margin-bottom: 52px;
     background: #FFAE2B;
     border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
     -webkit-appearance: none;
     font-family: "Old Standard TT", serif;
     font-style: normal;
@@ -1819,6 +1816,7 @@
     background: #FFAE2B;
     border-radius: 0;
     -moz-border-radius: 0;
+    -webkit-border-radius: 0;
     -webkit-appearance: none;
     font-family: "Old Standard TT", serif;
     font-style: normal;
