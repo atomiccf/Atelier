@@ -6,13 +6,15 @@
   font-family: "Old Standard TT", serif;
 }
 
-.site_wrapper {
-  width: 100%;
-  height: auto;
+body {
   background-color: #181511;
 }
 
 /* header */
+header {
+  width: 100vw;
+}
+
 .header_container {
   width: 1320px;
   margin: 0 auto;
@@ -85,10 +87,10 @@
 }
 
 .header_img_background {
-  width: 100%;
+  width: 100vw;
   height: 602px;
   background: url("../img/header_img.jpg") no-repeat center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .header_img_background_container {
@@ -206,10 +208,10 @@
 }
 
 .templatePages_img_Background {
-  width: 100%;
+  width: 100vw;
   height: 462px;
   background: url("../img/bottom_img.jpg") no-repeat center;
-  background-size: contain;
+  background-size: cover;
 }
 
 /* ourService */

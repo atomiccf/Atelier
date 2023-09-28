@@ -7,15 +7,20 @@ box-sizing: border-box;
 
 }
 
+body {
 
-.site_wrapper{
-
-width: 100%;
-  height: auto;
-background-color:$zeus;
+  background-color:$zeus;
 
 }
+
+
 /* header */
+header {
+
+  width: 100vw;
+
+
+}
 .header_container{
   width: $xxl;
   margin: 0 auto;
@@ -105,15 +110,14 @@ background-color:$zeus;
 }
 .header_img{
   position: absolute;
-
   width: 100vw;
 
 }
 .header_img_background{
-  width: 100%;
+  width: 100vw;
   height: 602px;
-background: url("../img/header_img.jpg") no-repeat center ;
-background-size: contain ;
+  background: url("../img/header_img.jpg") no-repeat center ;
+  background-size: cover ;
 }
 
 .header_img_background_container {
@@ -260,10 +264,10 @@ display: flex;
 }
 
 .templatePages_img_Background{
-  width: 100%;
+  width: 100vw;
   height: 462px;
   background: url("../img/bottom_img.jpg") no-repeat center ;
-  background-size: contain ;
+  background-size: cover ;
 
 
 
