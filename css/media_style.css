@@ -1497,19 +1497,7 @@
     text-transform: none;
   }
   .header_menu .header_button {
-    width: 147px;
-    height: 52px;
-    border: 1px solid #FFAE2B;
-    background-color: #181511;
-    border-radius: 0;
-    font-family: "Old Standard TT", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 22px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFAE2B;
+    display: none;
   }
   .header_menu.active {
     width: 71%;
@@ -2017,19 +2005,7 @@
     text-transform: none;
   }
   .header_menu .header_button {
-    width: 147px;
-    height: 52px;
-    border: 1px solid #FFAE2B;
-    background-color: #181511;
-    border-radius: 0;
-    font-family: "Old Standard TT", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 22px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFAE2B;
+    display: none;
   }
   .header_menu.active {
     width: 71%;
