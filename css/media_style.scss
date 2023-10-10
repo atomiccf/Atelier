@@ -1985,12 +1985,14 @@
       flex-flow: column;
       align-items: center;
       justify-content: space-between;
-      -webkit-justify-content: space-between;
-      -webkit-align-items: center;
+/*      -webkit-justify-content: space-between;
+      -webkit-align-items: center;*/
       width: 100%;
       background-color: $zeus;
       transition: all 0.3s ease 0s;
+
       li{
+
         margin-right: 0;
         font-family: $oldStandardTT;
         font-style: normal;
@@ -1999,7 +2001,9 @@
         line-height: 24px;
         text-transform: uppercase;
         color: $napa;
+
         &:nth-child(1){
+
           margin-right: 0;
 
         }
