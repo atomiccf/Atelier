@@ -1976,15 +1976,15 @@
     top:-100%;
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
     align-items: center;
-    height: 50px;
+
 
 
     ul{
       display: flex;
       flex-flow: column;
       align-items: center;
+      justify-content: space-between;
       width: 100%;
       background-color: $zeus;
       transition: all 0.3s ease 0s;
