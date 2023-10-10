@@ -2660,7 +2660,6 @@
     top:-100%;
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
     align-items: center;
     height: 50px;
 
@@ -2670,7 +2669,7 @@
       flex-flow: column;
       align-items: center;
       justify-content: space-between;
-
+      -webkit-justify-content: center;
       width: 100%;
       height: 100vh;
       background-color: $zeus;
