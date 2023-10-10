@@ -1984,7 +1984,7 @@
       display: flex;
       flex-flow: column;
       align-items: center;
-      justify-content: space-between;
+      -webkit-justify-content: space-between;
       width: 100%;
       background-color: $zeus;
       transition: all 0.3s ease 0s;
