@@ -2657,7 +2657,7 @@
 
   .header_menu {
     position: fixed;
-    left: 106px;
+    left: 0;
     top:-100%;
     display: flex;
     flex-flow: column;
@@ -2675,10 +2675,11 @@
       transition: all 0.3s ease 0s;
       li{
         margin-right: 0;
+        margin-bottom: 10px;
         font-family: $oldStandardTT;
         font-style: normal;
         font-weight: 400;
-        font-size: 11px;
+        font-size: 20px;
         line-height: 24px;
         text-transform: uppercase;
         color: $napa;
@@ -2721,8 +2722,9 @@
   }
 
   .header_menu.active {
-    width: 71%;
+    width: 100%;
     top: 49px;
+    left: 0;
     transition: all 0.3s ease 0s;
 
   }
