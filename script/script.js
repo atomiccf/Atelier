@@ -4,3 +4,11 @@
          $('body').toggleClass('lock');
      });
  });
+
+ $(document).ready (function (){
+     $('.link').click(function (event){
+         $('.header_burger, .header_menu').removeClass('active');
+         $('body').toggleClass('lock');
+     });
+ });
+
