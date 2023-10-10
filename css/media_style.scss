@@ -1984,9 +1984,6 @@
       display: flex;
       flex-flow: column;
       align-items: center;
-     /* justify-content: space-between;*/
-/*      -webkit-justify-content: space-between;
-      -webkit-align-items: center;*/
       width: 100%;
       background-color: $zeus;
       transition: all 0.3s ease 0s;
@@ -2049,7 +2046,7 @@
 
   .header_menu.active {
     width: 71%;
-    top: 49px;
+    top: 40px;
     transition: all 0.3s ease 0s;
 
 
