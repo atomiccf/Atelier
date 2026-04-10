@@ -1,0 +1,173 @@
+@media (max-width: 1199px) {
+  .template-pages {
+    &__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .our-service {
+    &__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .template-pages {
+    &__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__item {
+      padding: 20px;
+    }
+
+    &__image {
+      max-width: 100%;
+    }
+  }
+
+  .our-service {
+    &__grid {
+      grid-template-columns: 1fr;
+    }
+
+    &__item {
+      padding: 30px 40px;
+    }
+  }
+
+  .follow-me {
+    &__grid {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    &__image {
+      max-width: 45%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    &__hero {
+      min-height: 500px;
+      padding-inline: 20px;
+
+      &-title {
+        font-size: 32px;
+      }
+    }
+  }
+
+  .template-pages {
+    padding-block: 60px;
+
+    &__grid {
+      grid-template-columns: 1fr;
+      margin-bottom: 60px;
+    }
+  }
+
+  .our-service {
+    padding-block: 60px;
+
+    &__header {
+      margin-bottom: 40px;
+    }
+
+    &__grid {
+      margin-bottom: 60px;
+    }
+
+    &__item {
+      padding: 30px;
+      min-height: auto;
+    }
+  }
+
+  .follow-me {
+    margin-bottom: 60px;
+
+    &__grid {
+      flex-direction: column;
+    }
+
+    &__image {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    &__cta {
+      padding: 30px;
+    }
+  }
+
+  .subscribe {
+    &__title {
+      font-size: 32px;
+    }
+
+    &__form {
+      width: 100%;
+    }
+
+    &__input,
+    &__submit {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    &__hero {
+      min-height: 400px;
+
+      &-subtitle {
+        font-size: 10px;
+        margin-top: 80px;
+      }
+
+      &-title {
+        font-size: 28px;
+      }
+    }
+  }
+
+  .template-pages {
+    &__header {
+      margin-bottom: 40px;
+    }
+
+    &__name {
+      font-size: 12px;
+    }
+  }
+
+  .our-service {
+    &__name {
+      font-size: 22px;
+      line-height: 32px;
+    }
+
+    &__description {
+      font-size: 14px;
+    }
+  }
+
+  .follow-me {
+    &__title {
+      font-size: 22px;
+    }
+  }
+
+  .footer {
+    &__content {
+      flex-direction: column;
+      gap: 16px;
+      text-align: center;
+    }
+  }
+}
