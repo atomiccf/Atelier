@@ -1,0 +1,35 @@
+:root {
+  --color-white: #ffffff;
+  --color-primary: #ffae2b;
+  --color-bg: #181511;
+  --color-muted: #aca592;
+  --color-border: #4b4136;
+
+  --font-main: 'Old Standard TT', serif;
+
+  --container-max: 1320px;
+  --container-xl: 1140px;
+  --container-lg: 960px;
+  --container-md: 720px;
+  --container-sm: 540px;
+
+  --header-height: 80px;
+
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+}
+
+$xxl: 1320px;
+$xl: 1140px;
+$l: 960px;
+$md: 720px;
+$sm: 540px;
+$xsm: 320px;
+
+$oldStandardTT: 'Old Standard TT', serif;
+
+$white: #ffffff;
+$mySin: #ffae2b;
+$zeus: #181511;
+$napa: #aca592;
+$taupe: #4b4136;

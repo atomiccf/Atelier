@@ -1,0 +1,40 @@
+{
+  "name": "atelier",
+  "version": "1.0.0",
+  "description": "Atelier - Creative Agency Template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch src/scss/main.scss:css/main_style.css --style=expanded --source-map",
+    "build": "npm run build:scss && npm run build:copy",
+    "build:scss": "sass src/scss/main.scss:css/main_style.css --style=compressed --no-source-map",
+    "build:copy": "node -e \"const fs=require('fs');let html=fs.readFileSync('src/index.html','utf8');html=html.replace('src/js/main.js','script/script.js');fs.writeFileSync('index.html',html);\"",
+    "lint:css": "stylelint \"src/scss/**/*.scss\"",
+    "lint:js": "prettier --check \"src/js/**/*.js\"",
+    "lint": "npm run lint:css && npm run lint:js",
+    "format:css": "prettier --write \"src/scss/**/*.scss\"",
+    "format:js": "prettier --write \"src/js/**/*.js\"",
+    "format:html": "prettier --write \"src/**/*.html\"",
+    "format": "npm run format:css && npm run format:js && npm run format:html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomiccf/Atelier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atomiccf/Atelier/issues"
+  },
+  "homepage": "https://github.com/atomiccf/Atelier#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.8.1",
+    "sass": "^1.99.0",
+    "stylelint": "^17.6.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-standard-scss": "^17.0.0"
+  }
+}
